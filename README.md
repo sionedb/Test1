@@ -1,23 +1,21 @@
-## Synopsis
+##  Example project to create a Random Number Generator
 
 Example of java coding projects used for improving coding and interview skills
 
-## Code Example
-
-# Random Generator
 
 Implement in java a random generator which can be initialised by
 a set of Random Numbers e.g. [-1, 0, 100, 300] and Probabilities e.g. [0.01, 0.4, 0.55, 0.04] 
-in such a way that if the generator's nextNum() method is called
-repeatedly we get results which generate a random number according
-to the distribution of probablitie.
-If nextNum() were called 100 times we may get the following results. 
--1: 1 times 
-0: 36 times 
-100: 57 times 
-300: 6 times 
+in such a way that when generator called
+repeatedly we get results according
+to the distribution of probablities.
+E.g.  if with above initialisation a generator were called 100 times we may get the following results: 
+<li>-1: 1 times 
+<li>0: 36 times 
+<li>100: 57 times 
+<li>300: 6 times 
 As the results are random, these particular results are unlikely to be repeated.
 
+## Code Example
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
